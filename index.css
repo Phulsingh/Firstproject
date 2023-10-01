@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.itme-list{
+    list-style-type: none;
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    padding: 15px;
+}
+.itme{
+   display: flex; 
+   margin-top: 30px;
+   padding:15px;
+}
+.logo h1{
+    color: rgb(225,103,0);
+    font-size: 60px;
+    margin-top: 40px;
+}
+.itme-list:hover{
+    color: rgb(225, 103, 0);
+
+}
+input{
+    border: 2px solid rgb(225, 103, 0);
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius:10px ;
+    background:transparent;
+    color:white;
+    width: 170px;
+    margin-top: 30px;
+}
+button{
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: rgb(225, 103, 0);
+    width:100px;
+    margin-left: 0;
+    margin-top: 30px;
+}
+main{
+    display: flex;
+}
+#left-side{
+     width:600px;
+     margin-left: 50px;
+     margin-top: 100px;
+}
+main h1{
+    font-size: 50px;
+    line-height: 50px;
+}
+#join{
+    padding: 10px;
+    background-color: rgb(225, 103, 0);
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 200px;
+    margin-top: 20px;
+    font-size:23px;
+}
+form{
+    width:300px;
+    height: 450px;
+    display:right;
+    justify-content:right;
+    margin-left: 450px;
+    margin-top: 20px;
+    background-color:rgb(18, 12, 18);
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: black;
+    
+}
+form .button2{
+    background-color: white;
+    margin-left: 30px;
+    color: white;
+    width: 240px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: rgb(225, 103, 0);
+    font-family: bold;
+}
+form input{
+    margin-left: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 16px;
+    border-radius: none;
+}
+form .button3{
+   margin-left: 30px;
+   color: white;
+   width: 240px;
+   border-radius: 10px;
+   font-size: 20px;
+
+}
+form h4{
+    margin-top: 20px ;
+    margin-left: 60px;
+    font-size: 15px;
+    color: white;
+}
+form h6{
+    margin-top: 20px;
+    margin-left: 95px;
+    font-size: 15px;
+    color: white;
+}
+.icon{
+    display:flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left:30px ;
+    font-size: 25px;
+    float: left;
+}
+
